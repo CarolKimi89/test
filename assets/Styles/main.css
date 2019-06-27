@@ -1,0 +1,61 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+.background {
+    background: linear-gradient(
+        to right,
+        rgba(0,0,0,0.9),
+        rgba(255,255,255,0.5)
+    ),
+    url("https://picsum.photos/1920/1080?random") 50% no-repeat;
+    height: 100vh;
+    position: relative;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.center-block{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.center-block h2{
+    margin-bottom: 30px;
+    font-size: 48px;
+}
+
+.btn {
+    border: 1px solid white;
+    width: 200px;
+    height: 40px;
+    background-color: blue; 
+}
+
+.column {
+    float: left;
+    width: 50%;
+    height: 500px;
+    text-align: justify;
+    padding: 25px;
+}
+
+
+.header {
+    font-size: 36px;
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
